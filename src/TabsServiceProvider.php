@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Eminiarts\Tabs;
+namespace Workup\Nova\Tabs;
 
 use Illuminate\Support\ServiceProvider;
 use Laravel\Nova\Events\ServingNova;

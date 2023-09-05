@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Eminiarts\Tabs;
+namespace Workup\Nova\Tabs;
 
 use Closure;
-use Eminiarts\Tabs\Contracts\TabContract;
+use Workup\Nova\Tabs\Contracts\TabContract;
 use Illuminate\Http\Resources\MergeValue;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;

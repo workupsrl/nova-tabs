@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Eminiarts\Tabs\Tests\Feature;
+namespace Workup\Nova\Tabs\Tests\Feature;
 
-use Eminiarts\Tabs\Tab;
+use Workup\Nova\Tabs\Tab;
 use PHPUnit\Framework\TestCase;
 
 class TabTest extends TestCase

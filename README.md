@@ -46,9 +46,9 @@ You can group fields of a resource into tabs.
 ```php
 // in app/Nova/Resource.php
 
-use Eminiarts\Tabs\Traits\HasTabs;
-use Eminiarts\Tabs\Tabs;
-use Eminiarts\Tabs\Tab;
+use Workup\Nova\Tabs\Traits\HasTabs;
+use Workup\Nova\Tabs\Tabs;
+use Workup\Nova\Tabs\Tab;
 
 class User extends Resource
 {
@@ -81,9 +81,9 @@ These are a bit outdated, as the search and create buttons now show within the p
 ```php
 // in app/Nova/Resource.php
 
-use Eminiarts\Tabs\Tabs;
+use Workup\Nova\Tabs\Tabs;
 use Laravel\Nova\Fields\HasMany;
-use Eminiarts\Tabs\Traits\HasTabs;
+use Workup\Nova\Tabs\Traits\HasTabs;
 
 class User extends Resource
 {
@@ -111,9 +111,9 @@ class User extends Resource
 ![image](https://user-images.githubusercontent.com/3426944/51089905-aa297680-1774-11e9-9611-4446ca13ab4a.png)
 
 ```php
-use Eminiarts\Tabs\Tabs;
+use Workup\Nova\Tabs\Tabs;
 use Laravel\Nova\Fields\HasMany;
-use Eminiarts\Tabs\Traits\HasTabs;
+use Workup\Nova\Tabs\Traits\HasTabs;
 
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Text;
@@ -144,10 +144,10 @@ If your Model uses the `Laravel\Nova\Actions\Actionable` Trait you can put the A
 ```php
 // in app/Nova/Resource.php
 
-use Eminiarts\Tabs\Tabs;
-use Eminiarts\Tabs\Tab;
-use Eminiarts\Tabs\Traits\HasTabs;
-use Eminiarts\Tabs\Traits\HasActionsInTabs; // Add this Trait
+use Workup\Nova\Tabs\Tabs;
+use Workup\Nova\Tabs\Tab;
+use Workup\Nova\Tabs\Traits\HasTabs;
+use Workup\Nova\Tabs\Traits\HasActionsInTabs; // Add this Trait
 use Laravel\Nova\Actions\ActionResource; // Import the Resource
 
 class Client extends Resource
@@ -223,8 +223,8 @@ export default {
    - Even if you have other panels, tabs will always show up first and has the toolbar.
    - TabsOnEdit is gone and non relational tabs will simply always display on edit.
    - I don't use dusk, so didn't check the tests for it either, they might be broken.
-   - Added Eminiarts\Tabs\Traits\HasTabs to overwrite Nova 4 default panel methods in Laravel\Nova\ResolveFields.
-   - Moved Eminiarts\Tabs\ActionsInTabs to Eminiaarts\Tabs\Traits\HasActionsInTabs.
+   - Added Workup\Nova\Tabs\Traits\HasTabs to overwrite Nova 4 default panel methods in Laravel\Nova\ResolveFields.
+   - Moved Workup\Nova\Tabs\ActionsInTabs to Eminiaarts\Tabs\Traits\HasActionsInTabs.
    - Added position method to Tab to fix relational tabs showing up last.
 
 ## Credits

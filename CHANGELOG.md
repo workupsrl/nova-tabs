@@ -38,9 +38,9 @@
 - Nova 4 compatible
 - Removed selectFirstTab, first tab is always displayed first.
 - Removed TabsOnEdit, tabs will simply always show on edit for now.
-- Added Eminiarts\Tabs\Traits\HasTabs to overwrite Nova 4 default panel methods in Laravel\Nova\ResolveFields.
+- Added Workup\Nova\Tabs\Traits\HasTabs to overwrite Nova 4 default panel methods in Laravel\Nova\ResolveFields.
 - Added position method to Tab to fix relational tabs showing up last.
-- Moved Eminiarts\Tabs\ActionsInTabs to Eminiaarts\Tabs\Traits\HasActionsInTabs.
+- Moved Workup\Nova\Tabs\ActionsInTabs to Eminiaarts\Tabs\Traits\HasActionsInTabs.
 
 ## 1.5.1 - 2022-02-24
 

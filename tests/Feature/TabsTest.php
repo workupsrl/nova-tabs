@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Eminiarts\Tabs\Tests\Feature;
+namespace Workup\Nova\Tabs\Tests\Feature;
 
-use Eminiarts\Tabs\Tabs;
-use Eminiarts\Tabs\Tests\TestCase;
+use Workup\Nova\Tabs\Tabs;
+use Workup\Nova\Tabs\Tests\TestCase;
 
 class TabsTest extends TestCase
 {
